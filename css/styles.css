@@ -149,7 +149,7 @@ nav {
 }
 
 .hero_container {
-    margin: 90px auto;
+    margin: 110px auto;
     height: 80vh;
     width: 87%;
     position: relative;
@@ -198,6 +198,7 @@ nav {
 }
 
 /* Hero Section Media Queries Section */
+
 @media (max-width: 1180px) {
     .hero_container .narrow_screen_img {
         object-fit: cover;
@@ -297,3 +298,56 @@ nav {
 }
 
 /* End of Hero Section Media Queries Section */
+
+.offerings_container {
+    width: 87%;
+    margin: auto;
+    margin-bottom: 40px;
+} 
+
+.offerings_header {
+    font-size: 3rem;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.offering_cards_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+}
+
+.offering_card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 400px;
+    width: 302px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 7px 33px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 7px 33px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 7px 33px -3px rgba(0,0,0,0.75);
+    padding-bottom: 20px;
+}
+
+.offering_card img {
+    object-fit: cover;
+    width: 302px;
+    height: 212px;
+    margin-bottom: 20px;
+}
+
+.offering_card h2 {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.offering_card p {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
