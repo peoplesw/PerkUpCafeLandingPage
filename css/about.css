@@ -207,16 +207,19 @@ nav {
     .our_passion_section p {
         font-size: 1rem;
         text-align: justify;
+        word-spacing: -2px;
     }
     
     .our_goal_section p {
         font-size: 1rem;
         text-align: justify;
+        word-spacing: -2px;
     }
     
     .our_community_service_section p {
         font-size: 1rem;
         text-align: justify;
+        word-spacing: -2px;
     }
 
     .our_passion_section h2 {

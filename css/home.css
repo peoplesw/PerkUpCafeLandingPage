@@ -370,6 +370,7 @@ nav {
 
 .offering_card p {
     text-align: justify;
+    word-spacing: -2px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
