@@ -103,8 +103,14 @@ nav {
 }
 
 @media (max-width: 768px) {
+
     .hamburger {
         display: block;
+        margin: 50px;
+    }
+    
+    .logo_img_and_name {
+        margin-left: 50px;
     }
 
     .hamburger.active .bar:nth-child(2) {
