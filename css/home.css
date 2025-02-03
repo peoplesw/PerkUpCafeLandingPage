@@ -41,6 +41,11 @@ nav {
     margin-right: 20px;
 }
 
+.nav_img a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .logo_img_and_name .nav_name {
 
 }
