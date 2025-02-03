@@ -194,6 +194,11 @@ nav {
     background-color: #f4f3ef;
     border-radius: 10px;
     cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.call_to_action button:hover {
+    background-color: #e5e3d9;
 }
 
 /* Hero Section Media Queries Section */

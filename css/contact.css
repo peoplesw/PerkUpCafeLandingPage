@@ -163,6 +163,7 @@ nav {
 .left_side_container {
     width: 50%;
     height: 100%;
+    position: relative;
 }
 
 .left_side_img {
@@ -170,6 +171,48 @@ nav {
     height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.fa-facebook {
+    position: absolute;
+    bottom: 40px;
+    left: 35%;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-twitter {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    position: absolute;
+    bottom: 40px;
+    left: 65%;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-linkedin {
+    position: absolute;
+    bottom: 40px;
+    left: 20%;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .left_side_container {
+        display: none;
+    }
 }
 
 .right_side_container {
@@ -186,6 +229,7 @@ nav {
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .contact_header_and_message_container h1 {
@@ -224,6 +268,34 @@ nav {
     width: 50%;
 }
 
+@media (max-width: 500px) {
+    .name_container .first_name_input {
+        display: block;
+        width: 100%;
+    }
+
+    .name_container .last_name_input {
+        display: block;
+        width: 100%;
+    }
+
+    .contact_header_and_message_container h1 {
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    
+    .contact_header_and_message_container span {
+        font-size:  1rem;
+        font-weight: 800;
+    }
+
+    .name_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
 .email_input  {
     height: 60px;
     width: 100%;
@@ -241,7 +313,6 @@ nav {
 .text_area  {
     height: 60px;
     width: 100%;
-    margin-bottom: 20px;
     padding-left: 15px;
 }
 
@@ -251,12 +322,18 @@ nav {
 }
 
 button {
-    margin: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     width: 100%;
     padding: 10px;
     background-color: #f4f3ef;
     border-radius: 10px;
     cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    background-color: #e5e3d9;
 }
 
 /* End of Contact Form */
@@ -264,7 +341,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 16px;
     background-color: #e5e3d9;
     width: 100%;
     height: 100px;
