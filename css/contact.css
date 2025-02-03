@@ -343,6 +343,7 @@ button {
 
 button:hover {
     background-color: #e5e3d9;
+    color: #000;
 }
 
 /* End of Contact Form */
