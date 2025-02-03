@@ -299,6 +299,10 @@ nav {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    .right_side_container {
+        padding: 20px;
+    }
 }
 
 .email_input  {
