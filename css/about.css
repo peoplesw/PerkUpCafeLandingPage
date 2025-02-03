@@ -102,56 +102,6 @@ nav {
     transition: all 0.3 ease-in-out;
 }
 
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-         opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-   }
-
-   .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav_menu_items {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s ease-in-out;
-    }
-
-    .nav_menu_items.active {
-        left: 0px;
-    }
-
-    .nav_menu_item {
-        transition: .2s ease-in-out;
-        margin-top: 16px;
-        margin-left: 0px;
-        width: 100%;
-    }
-
-    .nav_menu_item:hover {
-        color: #000;
-        background-color: #e5e3d9;
-    }
-
-    .nav_name {
-        display: none;
-    }
-}
-
 .about_container {
     width: 87%;
     margin: 110px auto;
@@ -203,6 +153,91 @@ nav {
 .our_community_service_section p {
     font-size: 1.5rem;
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+         opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+   }
+
+   .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav_menu_items {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav_menu_items.active {
+        left: 0px;
+    }
+
+    .nav_menu_item {
+        transition: .2s ease-in-out;
+        margin-top: 16px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .nav_menu_item:hover {
+        color: #000;
+        background-color: #e5e3d9;
+    }
+
+    .nav_name {
+        display: none;
+    }
+
+    .our_passion_section p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    .our_goal_section p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    
+    .our_community_service_section p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .our_passion_section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .our_goal_section h2{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .our_community_service_section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .about_header {
+        font-size: 2rem;
+    }
+
 }
 
 footer {
