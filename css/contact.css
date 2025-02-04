@@ -139,6 +139,7 @@ nav {
 
     .nav_menu_items.active {
         left: 0px;
+        height: 100%;
     }
 
     .nav_menu_item {
@@ -182,6 +183,7 @@ nav {
     height: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    object-fit: cover;
 }
 
 .fa-facebook {
@@ -280,15 +282,30 @@ nav {
     width: 50%;
 }
 
+.name_container .full_name_input {
+    display: none;
+}
+
 @media (max-width: 500px) {
     .name_container .first_name_input {
-        display: block;
+        /* display: block; */
         width: 100%;
+        display: none;
     }
 
     .name_container .last_name_input {
+        /* display: block; */
+        width: 100%;
+        display: none;
+    }
+
+    .name_container .full_name_input {
         display: block;
         width: 100%;
+        margin-bottom: 20px;
+        height: 50px;
+        padding-left: 10px;
+
     }
 
     .contact_header_and_message_container h1 {

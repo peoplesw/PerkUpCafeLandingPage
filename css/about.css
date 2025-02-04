@@ -192,6 +192,7 @@ nav {
 
     .nav_menu_items.active {
         left: 0px;
+        height: 100%;
     }
 
     .nav_menu_item {
