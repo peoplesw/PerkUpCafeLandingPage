@@ -17,9 +17,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 1px 12px 30px -8px rgba(0,0,0,0.62);
-    -webkit-box-shadow: 1px 12px 30px -8px rgba(0,0,0,0.62);
-    -moz-box-shadow: 1px 12px 30px -8px rgba(0,0,0,0.62);
+    box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
     position: fixed;
     top: 0;
     z-index: 10;
