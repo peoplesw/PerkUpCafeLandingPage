@@ -161,9 +161,9 @@ nav {
 }
 
 .hero_container {
-    margin: 110px auto;
-    height: 80vh;
-    width: 87%;
+    margin: 70px auto;
+    height: 95vh;
+    width: 100%;
     position: relative;
 }
 
@@ -183,9 +183,12 @@ nav {
 .call_to_action {
     width: 40%;
     position: absolute;
-    top: 120px;
+    top: 170px;
     left: 50px;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .call_to_action h1 {
