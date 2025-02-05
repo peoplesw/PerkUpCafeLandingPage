@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Start of Nav Bar */
 body {
     background-color: #f4f3ef;
 }
@@ -17,12 +18,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
-    -webkit-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
-    -moz-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
     position: fixed;
     top: 0;
     z-index: 10;
+    box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -4px 4px 16px 0px rgba(0,0,0,0.22);
 }
 
 .logo_img_and_name {
@@ -37,13 +38,13 @@ nav {
     width: 60px;
 }
 
+.logo_img_and_name .nav_img {
+    margin-right: 20px;
+}
+
 .nav_img a {
     text-decoration: none;
     cursor: pointer;
-}
-
-.logo_img_and_name .nav_img {
-    margin-right: 20px;
 }
 
 .logo_img_and_name .nav_name {
@@ -102,66 +103,12 @@ nav {
     transition: all 0.3 ease-in-out;
 }
 
-.about_container {
-    width: 87%;
-    margin: 110px auto;
-}
-
-.about_header {
-    margin-bottom: 60px;
-    font-size: 2rem;
-}
-
-.our_passion_section {
-    margin: 40px 0px; 
-}
-
-.our_goal_section {
-    margin: 40px 0px;
-}
-
-.our_community_service_section {
-    margin: 40px 0px;
-}
-
-
-.our_passion_section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.our_goal_section h2{
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.our_community_service_section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.our_passion_section p {
-    font-size: 1.25rem;
-    text-align: justify;
-}
-
-.our_goal_section p {
-    font-size: 1.25rem;
-    text-align: justify;
-}
-
-.our_community_service_section p {
-    font-size: 1.25rem;
-    text-align: justify;
-}
-
-@media (max-width: 768px) {
-    
+@media (max-width: 850px) {
     .hamburger {
         display: block;
         margin: 50px;
     }
-    
+
     .logo_img_and_name {
         margin-left: 50px;
     }
@@ -211,43 +158,42 @@ nav {
         display: none;
     }
 
-    .our_passion_section p {
-        font-size: 1rem;
-        text-align: justify;
-        word-spacing: -2px;
-    }
-    
-    .our_goal_section p {
-        font-size: 1rem;
-        text-align: justify;
-        word-spacing: -2px;
-    }
-    
-    .our_community_service_section p {
-        font-size: 1rem;
-        text-align: justify;
-        word-spacing: -2px;
-    }
+}
 
-    .our_passion_section h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-    
-    .our_goal_section h2{
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-    
-    .our_community_service_section h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
+/* End of Nav Bar */
 
-    .about_header {
-        font-size: 2rem;
-    }
+/* Start of Menu */
 
+h1, h2 { 
+    text-align: center; 
+    color: #4a3f35; 
+}
+
+h1 {
+    margin-top: 120px;
+    font-size: 1.5rem;
+}
+
+.menu-section { 
+    margin: 40px auto; 
+    max-width: 86%; 
+}
+.menu-item { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px 0; 
+    border-bottom: 1px solid #ddd; 
+}
+.item-name { 
+    font-weight: bold; 
+    color: #333; 
+}
+.item-description { 
+    font-size: 0.9em; 
+    color: #666; 
+}
+.item-price { 
+    color: #4a3f35; 
 }
 
 footer {
