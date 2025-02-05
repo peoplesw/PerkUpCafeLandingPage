@@ -58,7 +58,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 .nav_menu_item {
@@ -210,8 +210,15 @@ nav {
     transition: .2s ease-in-out;
 }
 
+.call_to_action a {
+    text-decoration: none;
+    color: #000;
+}
+
 .call_to_action button:hover {
-    background-color: #e5e3d9;
+    background-color: #4285F4;
+    color: #fff;
+    cursor: pointer;
 }
 
 /* Hero Section Media Queries Section */
@@ -483,6 +490,27 @@ h1, h2 {
 }
 .item-price { 
     color: #4a3f35; 
+}
+
+.menu_button_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full_menu_button {
+    margin: 40px 0px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.full_menu_button:hover {
+    background-color: #4285F4;
+    color: #fff;
+    cursor: pointer;
 }
 
 footer {

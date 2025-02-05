@@ -62,7 +62,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 90px;
 }
 
 .nav_menu_item {
@@ -157,6 +157,7 @@ nav {
     .nav_name {
         display: none;
     }
+
 
 }
 
