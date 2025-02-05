@@ -350,6 +350,14 @@ nav {
     }
 }
 
+@media (max-width: 694px) {
+
+    .offering_cards_container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .offering_card {
     display: flex;
     justify-content: center;
