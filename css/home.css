@@ -330,7 +330,7 @@ nav {
 
 .offering_cards_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     color: #000;
@@ -367,6 +367,7 @@ nav {
 .offering_card h2 {
     margin-bottom: 20px;
     padding-left: 20px;
+    color: #855043;
 }
 
 .offering_card p {
@@ -375,14 +376,82 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    color: #8A7C78;
 }
 
 .menu_container h1 {
     font-size: 3rem;
     margin-top: 150px;
 }
+/* Drink Offerings */
 
-/* Menu */
+.drink_offerings_container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 87%;
+    margin: 100px auto;
+}
+
+.drink_offering {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+}
+
+.coffee_to_go_img {
+    width: 96px;
+    height: 73.5px;
+
+}
+
+.french_press_img {
+    width: 64px;
+    height: 76px;
+}
+
+.espresso_img {
+    width: 55px;
+    height: 90.5px;
+}
+
+.dark_roast_img {
+    width: 45px;
+    height: 119px;
+}
+
+.drink_offering_header {
+    font-size: 1.5rem;
+    color: #855043;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.drink_offering_description {
+    font-size: 1rem;
+    color: #8A7C78;
+    text-align: center;
+}
+
+.link_to_menu {
+    text-decoration: none;
+    color: #D96B1A;
+    margin-top: 20px;
+}
+
+@media (max-width: 575px) {
+    .drink_offering {
+        width: 100%;
+    }
+}
+
+/* End of Drink Offerings */
+
+/* Start of Menu */
 
 body { 
     font-family: Arial, sans-serif; 
