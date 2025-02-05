@@ -405,6 +405,7 @@ nav {
 .about_us_img_div {
     width: 50%;
     height: 92.5vh;
+    position: relative;
 }
 
 .about_us_img {
