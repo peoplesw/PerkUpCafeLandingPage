@@ -368,8 +368,27 @@ button:hover {
     background-color: #e5e3d9;
     color: #000;
 }
-
 /* End of Contact Form */
+
+/* Start Map */
+.map_container {
+    margin: 40px auto;
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map_div {
+    width: 50%;
+}
+
+.map_info_div {
+    width: 50%;
+}
+
+/* End Map */
+
 footer {
     display: flex;
     justify-content: center;
