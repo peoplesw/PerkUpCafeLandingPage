@@ -625,10 +625,12 @@ p span {
 
 .photo_gallery_subtitle {
     font-size: 1.5rem;
+    color:#D96B1A;
 }
 
 .photo_gallery_main_title {
     font-size: 2rem;
+    color: #855043;
 }
 
 hr {
@@ -652,7 +654,6 @@ hr {
 .img_div {
     width: 25%;
     height: 50%;
-    /* flex: 1; */
 }
 
 .photo_gallery_img {
