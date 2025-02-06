@@ -368,6 +368,10 @@ button:hover {
     background-color: #4285F4;
     color: #fff;
 }
+
+a {
+    text-decoration: none;
+}
 /* End of Contact Form */
 
 /* Start Map */
