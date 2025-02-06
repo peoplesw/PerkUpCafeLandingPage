@@ -185,6 +185,18 @@ h1 {
     border-radius: 10px;
 }
 
+@media (max-width: 1000px) {
+    .menu_container {
+        width: 86%;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu_container {
+        width: 100%;
+    }
+}
+
 .menu-section { 
     margin: 40px auto; 
     max-width: 86%; 
@@ -193,7 +205,7 @@ h1 {
     display: flex; 
     justify-content: space-between; 
     padding: 10px 0; 
-    border-bottom: 1px solid #ddd; 
+    /* border-bottom: 1px solid #ddd;  */
 }
 .item-name { 
     font-weight: bold; 
