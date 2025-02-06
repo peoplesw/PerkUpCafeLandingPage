@@ -110,6 +110,7 @@ nav {
 .about_header {
     margin-bottom: 60px;
     font-size: 2rem;
+    color: #855043;
 }
 
 .our_passion_section {
@@ -128,31 +129,37 @@ nav {
 .our_passion_section h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #D96B1A;
 }
 
 .our_goal_section h2{
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #D96B1A;
 }
 
 .our_community_service_section h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #D96B1A;
 }
 
 .our_passion_section p {
     font-size: 1.25rem;
     text-align: justify;
+    color: #8A7C78;
 }
 
 .our_goal_section p {
     font-size: 1.25rem;
     text-align: justify;
+    color: #8A7C78;
 }
 
 .our_community_service_section p {
     font-size: 1.25rem;
     text-align: justify;
+    color: #8A7C78;
 }
 
 @media (max-width: 768px) {
